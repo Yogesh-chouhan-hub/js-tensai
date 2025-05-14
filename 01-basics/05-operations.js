@@ -9,4 +9,8 @@ let str2 =" yogesh"
 let str3= str1+str2;
 
 console.log(str3);
+console.log(+true);
 
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
