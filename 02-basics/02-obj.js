@@ -49,3 +49,11 @@ console.log(Object.values(obj1));
 console.log(obj1.hasOwnProperty('isLogged'));
 console.log(obj1.hasOwnProperty(2));
 
+//Destructuring ogf object
+
+const course = {
+    CourseName :"JS",
+    Price : 354,
+    Lectural : "Hitesh_Prohit"
+}
+
