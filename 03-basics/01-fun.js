@@ -14,3 +14,28 @@ function loginUser(username = "no_one"){
 
 console.log(loginUser());
 
+function calculatePrice(...val){
+  return val
+}
+
+console.log( calculatePrice(3,4,5));  //[3,4,5]
+
+const user={
+  name:"yogesh chouhan",
+  age:21,
+  address:"dutt nagar"
+}
+
+function Detail(anyObject){
+  console.log(`user name is ${anyObject.name} age ${anyObject.age} address ${anyObject.address}`)
+}
+
+Detail(user)
+
+const myArray =[1,2,3,4,5]
+
+function ary(yo){
+  return yo[1]
+}
+
+console.log(ary(myArray));
